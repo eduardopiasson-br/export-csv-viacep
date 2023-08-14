@@ -1,0 +1,114 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #7a7979;
+}
+
+.main {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+i {
+    background-color: cyan;
+    border-radius: 75%;
+    width: 15px;
+    display: table-cell;
+    border: 1px solid;
+    font-size: 12px;
+}
+
+.btn-warning {
+    padding: 5px 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.btn-warning:hover {
+    background-color: black;
+    cursor: pointer;
+    color: yellow;
+}
+
+.btn-primary {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.btn-primary:hover {
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+}
+
+.btn-success {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.btn-success:hover {
+    background-color: white;
+    cursor: pointer;
+    color: green;
+}
+
+.error {
+    justify-content: center;
+    color: red;
+    margin: 15px;
+    font-weight: 700;
+}
+
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+}
+
+td,
+th {
+    border: 1px solid #7a7979;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.d-none {
+    display: none;
+}
+
+.div-select {
+    margin: 15px;
+}
+
+select {
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 120px;
+}
